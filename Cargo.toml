@@ -1,0 +1,13 @@
+[package]
+name = "procedural-2d-landscape"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nannou = "0.18"
+
+[profile.release]
+strip = true
+lto = true
